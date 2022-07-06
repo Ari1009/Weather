@@ -8,14 +8,14 @@
   --white: #ffffff;
   --off-white: #e5e5e5;
   --transp-white-1: rgba(255, 255, 255, 0.25);
-  --transp-white-2: rgba(255, 255, 255, 0.1);
-  --blue-1: #af42ee;
-  --blue-2: #560883;
-  --shadow: rgba(202, 131, 235, 0.836);
+  --transp-white-2: rgba(224, 215, 215, 0.1);
+  --purps: #dcb1f5;
+  --purps1: #985eb9;
+  --shadow: rgba(85, 9, 121, 0.836);
 }
 body {
   height: 100vh;
-  background: linear-gradient(135deg, var(--blue-1), var(--blue-2));
+  background: linear-gradient(135deg, var(--purps), var(--purps1));
 }
 .wrapper {
   font-size: 16px;
@@ -81,7 +81,7 @@ body {
   border-color: var(--white);
 }
 .search-container button {
-  color: var(--blue-2);
+  color: var(--purps1);
   background-color: var(--white);
   border-radius: 0.3em;
 }
